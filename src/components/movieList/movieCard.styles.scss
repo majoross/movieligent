@@ -1,0 +1,27 @@
+.movie-card{
+    font-family: montserrat;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 300px;
+    margin:10px;
+    .movie-title{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    img{
+        height: 450px;
+    }
+    .movie-overview {
+        font-size: 16px;
+        text-align: start;
+        width:300px;
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+    }
+    .movie-rating {
+        font-weight: 600;
+    }
+    }
